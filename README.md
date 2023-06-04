@@ -17,10 +17,10 @@ Possible configurations include:
     * AWD with using the front and rear AB drives from this mod, Redoubt XY Joints and Voron style toolheads. 
     * 2WD using the XY Joints and rear AB from this mod, Redoubt front idlers and VZ Printhead style toolheads.
 
-The standard configuration is all of the above mods together. This is what is tested. All other potential configuirations are untested. 
+The standard configuration is all of the above mods together. This is what is tested. All other potential configurations are untested. 
 Note that this is an advanced mod. There is no build documentation. Bom will not be comprehensive. It is expected that you will inspect the CAD and do the work to figure out what you need to install it. 
 
-Due to the number of idlers, you need to build to spec and take your time to make sure everything is properly built and aligned, front to back. Failure to do this will lead to your fourbie eating all of your belts. Nom. Also before printing make sure that you have properly tuned your filament and that it is producing dimensionally accurate parts. This MOD has been designed with very tight tolerances and impopper calibration will lead to problems. 
+Due to the number of idlers, you need to build to spec and take your time to make sure everything is properly built and aligned, front to back. Failure to do this will lead to your fourbie eating all of your belts. Nom. Also before printing make sure that you have properly tuned your filament and that it is producing dimensionally accurate parts. This MOD has been designed with very tight tolerances and improper calibration will lead to problems. 
 
 ## XY Joints
 ![Alt text](images/XYJoint.png)
@@ -36,7 +36,7 @@ There are two versions of the Front AB drives.
     * With Extrusion
     * Without extrusion
 
-Front AB drives without extrusion are untested and not recommended. The addition of a front extrusion stabilises the front AB drives. The addition of motors on the front of the gantry coult lead to the fron AB drives twisting and could cause problems with your belts. Extrusion length is 210mm/260mm/310mm for v2.4 250/300/350.
+Front AB drives without extrusion are untested and not recommended. The addition of a front extrusion stabilises the front AB drives. The addition of motors on the front of the gantry could lead to the fron AB drives twisting and could cause problems with your belts. Extrusion length is 210mm/260mm/310mm for v2.4 250/300/350.
 All idler and pulley stacks use pins rather than bolts. As per design all smooth idlers are designed to use bearings, and toothed idlers use toothed idlers. There is support in the CAD for Gates genuine and non-genuine idlers. 
 
 The return belts for the AB drives use redoubt belt spacing and therefor are compatible with redoubt XY joints. 
