@@ -1,4 +1,5 @@
 # Fourbie
+![Alt text](images/Render1.png)
 Fourbie is a collection of mods aimed at increasing the performance of the Voron 2.4. 
 In short it's an AWD system with a VZBot style toolhead. The X rail mounts on top of the X member and the toolhead is balanced over the top. Belts terminate on the front on one end and the rear on the other. This leads to a more balanced gantry than the stock voron allowing for increased performance. A front extrusion is added to support the front AB drives. There is support for CF tubes and extrusions. It also supports the use of a single MGN9 or MGN12.
 
@@ -22,7 +23,7 @@ Note that this is an advanced mod. There is no build documentation. Bom will not
 Due to the number of idlers, you need to build to spec and take your time to make sure everything is properly built and aligned, front to back. Failure to do this will lead to your fourbie eating all of your belts. Nom. Also before printing make sure that you have properly tuned your filament and that it is producing dimensionally accurate parts. This MOD has been designed with very tight tolerances and impopper calibration will lead to problems. 
 
 ## XY Joints
-
+![Alt text](images/XYJoint.png)
 Two versions of the XY joints are included in the mod, one for CF tubes and one for extrusions.
 From our testing a CF tube provides better performance.
 Either version supports MGN12 or MGN9. The more balanced gantry allows for the use of MGN9 as having the toolhead balanced over the top of the rail rather than hanging off the front means that a lighter duty rail can be used without degrading stability. In our testing the weight savings by going to MGN9 leads to better performance.
@@ -30,6 +31,7 @@ The front idler positioning is the same as Redoubt meaning this is compatible wi
 The XY joints are designed to be used with pins rather than bolts(Voron default) or shoulder screws(Redoubt default)
 
 ## Front AB drives. 
+![Alt text](images/FrontAB.png)
 There are two versions of the Front AB drives. 
     * With Extrusion
     * Without extrusion
@@ -40,6 +42,7 @@ All idler and pulley stacks use pins rather than bolts. As per design all smooth
 The return belts for the AB drives use redoubt belt spacing and therefor are compatible with redoubt XY joints. 
 
 ## Rear AB drives
+![Alt text](images/RearAB.png)
 Rear AB drives use integrated tensioners using an M5 bolt. Design was originally based on the Redoubt idlers, but then heavily modified to allow for visibility of the pulleys so you can confirm that your belts are running true.
 Note that as with the XY joints and Front AB drives these are designed for use with pins rather than bolts or shoulder screws for the idler stacks. 
 Rear AB drives allow for about 6.5mm of tensioning travel. This is enough, though you will want to put a little bit of tension on your belts when installing them
