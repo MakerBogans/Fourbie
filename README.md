@@ -50,7 +50,7 @@ Rear AB drives allow for about 6.5mm of tensioning travel. This is enough, thoug
 
 * MGN9 for X rail.
 * CF Tube for X rail
-* Front AB drives with 
+* Front AB drives with extrusion
 
 An NF Crazy or Mosquito is recommended to minimise loss of Y. With an NF crazy there is no loss of X and about 25mm loss on Y. Given that most people generally  do not print in the outer 1cm of the bed on Voron this is very little real world loss of build volume. 
 We are looking at options for BerdAir to reduce loss of build volume down to the minimum. 
