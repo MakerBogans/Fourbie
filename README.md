@@ -17,9 +17,13 @@ STL's are in this repository
 
 These are all designed to be used together, however they could be used in a number of other configurations
 Possible configurations include:
+
     * AWD with all of the mods and VZ printhead style toolheads.
+    
     * AWD with using the front and rear AB drives from this mod, Redoubt XY Joints and Voron style toolheads. 
+    
     * 2WD using the XY Joints and rear AB from this mod, Redoubt front idlers and VZ Printhead style toolheads.
+    
 
 The standard configuration is all of the above mods together. This is what is tested. All other potential configurations are untested. 
 Note that this is an advanced mod. There is no build documentation. Bom will not be comprehensive. It is expected that you will inspect the CAD and do the work to figure out what you need to install it. 
@@ -37,8 +41,11 @@ The XY joints are designed to be used with pins rather than bolts(Voron default)
 ## Front AB drives. 
 ![Alt text](images/FrontAB.png)
 There are two versions of the Front AB drives. 
+
     * With Extrusion
+    
     * Without extrusion
+    
 
 Front AB drives without extrusion are untested and not recommended. The addition of a front extrusion stabilises the front AB drives. The addition of motors on the front of the gantry could lead to the fron AB drives twisting and could cause problems with your belts. Extrusion length is 210mm/260mm/310mm for v2.4 250/300/350.
 All idler and pulley stacks use pins rather than bolts. As per design all smooth idlers are designed to use bearings, and toothed idlers use toothed idlers. There is support in the CAD for Gates genuine and non-genuine idlers. 
