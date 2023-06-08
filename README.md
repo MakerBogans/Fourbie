@@ -8,7 +8,9 @@ The primary components of the MOD are
 * Rear AB drives with integrated Tensioners
 * XY Joints
 
-CAD can be found here: https://drive.google.com/file/d/1AhVO8JxvDxypqgWyNXzLK3HZzntU7isS/view?usp=sharing
+CAD can be found here: 
+   https://drive.google.com/file/d/1AhVO8JxvDxypqgWyNXzLK3HZzntU7isS/view?usp=sharing
+   https://drive.google.com/file/d/1FDfTh_o8sUtzyHR29BRvmarWRINtGYFZ/view?usp=drive_link
 STL's are in this repository
 
 These are all designed to be used together, however they could be used in a number of other configurations
