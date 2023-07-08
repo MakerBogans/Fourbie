@@ -1,6 +1,8 @@
 # Fourbie
-Important note: All of the below information refers to Fourbie v1.
-Fourbie v2 is in active development - but is mostly done. We are just wrapping it up and getting ready for github release. I am providing a link to the google drive with the caveat that this is still in development and should be considered an alpha release. 
+
+## Important note
+All of the below information past the following section refers to Fourbie V1.
+Fourbie v2 is in active development - but is mostly done. We are just wrapping it up and getting ready for github release. I am providing a link to the google drive with the caveat that this is still in development and should be considered an alpha release. No documentation is currently available for fourbie v2, so you will need to look right through the CAD for BOM and assembly. This will be remedied in time. Information regarding v1 continues below this explainer about Fourbie v2 and the changes
 https://drive.google.com/drive/u/0/folders/1L2iNjBxE2YqSRG2WW0IpDFqYx307Jbbb
 
 V1 and v2 are very different. Here are some renders of the belt paths:
@@ -32,6 +34,8 @@ Main differences:
 
 It's still compatible with the VZ printhead, with the same belt spacing. Refer to the VZ-Prinhead-Printed repo for toolhead information.  
 Overall it's a more robust and performant mod than v1. We will continue to distribute the files for v1 as the seprate mods and vasrious configurations this enables still have value - but if you are looking to do the whole system together - while this is a bigger change from stock I would strongly recommend v2 over v1. Any questions should be directed to @TheMrFish on discord, I will happily answer your queries. 
+
+#Fourbie v1
 
 ![Alt text](images/Render1.png)
 Fourbie is a collection of mods aimed at increasing the performance of the Voron 2.4. 
