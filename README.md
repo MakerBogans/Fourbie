@@ -35,7 +35,7 @@ Main differences:
 It's still compatible with the VZ printhead, with the same belt spacing. Refer to the VZ-Prinhead-Printed repo for toolhead information.  
 Overall it's a more robust and performant mod than v1. We will continue to distribute the files for v1 as the seprate mods and vasrious configurations this enables still have value - but if you are looking to do the whole system together - while this is a bigger change from stock I would strongly recommend v2 over v1. Any questions should be directed to @TheMrFish on discord, I will happily answer your queries. 
 
-#Fourbie v1
+# Fourbie v1
 
 ![Alt text](images/Render1.png)
 Fourbie is a collection of mods aimed at increasing the performance of the Voron 2.4. 
