@@ -1,4 +1,38 @@
 # Fourbie
+Important note: All of the below information refers to Fourbie v1.
+Fourbie v2 is in active development - but is mostly done. We are just wrapping it up and getting ready for github release. I am providing a link to the google drive with the caveat that this is still in development and should be considered an alpha release. 
+https://drive.google.com/drive/u/0/folders/1L2iNjBxE2YqSRG2WW0IpDFqYx307Jbbb
+
+V1 and v2 are very different. Here are some renders of the belt paths:
+
+v1
+![Alt text](images/Fourbiev1BeltPath.png)
+v2
+![Alt text](images/Fourbiev2BeltPath.png)
+Main differences:
+   * Less idlers, simpler belt path. Less complexity means less failure points. 
+
+   * ~15mm of tensioner travel
+
+   * Tensioners at the front
+
+   * Belts run in front of the rear extrusion. All belts and idlers can now be inspected from within the chamber to ensure they are running true.
+
+   * Easy access to grub screws for syncing motors. 
+
+   * A bit less loss of Y travel
+
+   * Tow versions of AB joints, including one set that is much chonkier with an extra couple of mm of material in the AB drives. These resist twist far more than the standard thickness ones, or stock Voron AB.
+
+   * Lots of minor fixes to alignment and geometry
+
+   * No longer compatible with redoubt parts - v2 is an all in one system with front and rear AB and XY joints designed to be used together.
+
+   * Currently only configured to support CF Tube for the X member. Extrusion or others could be added, not currently supported. 
+
+It's still compatible with the VZ printhead, with the same belt spacing. Refer to the VZ-Prinhead-Printed repo for toolhead information.  
+Overall it's a more robust and performant mod than v1. We will continue to distribute the files for v1 as the seprate mods and vasrious configurations this enables still have value - but if you are looking to do the whole system together - while this is a bigger change from stock I would strongly recommend v2 over v1. Any questions should be directed to @TheMrFish on discord, I will happily answer your queries. 
+
 ![Alt text](images/Render1.png)
 Fourbie is a collection of mods aimed at increasing the performance of the Voron 2.4. 
 In short it's an AWD system with a VZBot style toolhead. The X rail mounts on top of the X member and the toolhead is balanced over the top. Belts terminate on the front on one end and the rear on the other. This leads to a more balanced gantry than the stock voron allowing for increased performance. A front extrusion is added to support the front AB drives. There is support for CF tubes and extrusions. It also supports the use of a single MGN9 or MGN12.
