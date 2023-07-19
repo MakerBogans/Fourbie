@@ -22,9 +22,9 @@ https://github.com/MakerBogans/Fourbie/tree/main/Fourbie%20v1
 
 V1 and v2 are very different. Here are some renders of the belt paths:
 
-v1
+## v1
 ![Alt text](images/Fourbiev1BeltPath.png)
-v2
+## v2
 ![Alt text](images/Fourbiev2BeltPath.png)
 Main differences:
    * Less idlers, simpler belt path. Less complexity means less failure points. 
