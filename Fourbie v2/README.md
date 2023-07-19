@@ -40,6 +40,11 @@ Main differences:
 It's still compatible with the VZ printhead, with the same belt spacing. Refer to the VZ-Prinhead-Printed repo for toolhead information.  
 Overall it's a more robust and performant mod than v1. We will continue to distribute the files for v1 as the seprate mods and vasrious configurations this enables still have value - but if you are looking to do the whole system together - while this is a bigger change from stock I would strongly recommend v2 over v1. Any questions should be directed to @TheMrFish on discord, I will happily answer your queries. 
 
+## Options
+
+### 4" lift
+These parts are thicker versions of the front and rear AB drives which we have found to be SIGNIFICANTLY stiffer. Back to back testing of performance has not been tested. I suspect they will perform better and may become the standard. Note that you may need to add washers/use longer bolts for your z belt mounting to fit them - I have not specifically looked at the length of this bolt at the time of writing. 
+
 ## BOM:
 We don't have one yet. But here is some useful info:
 
@@ -51,7 +56,7 @@ See the VZ-Printhead-Printed for details of what you will need to support the VZ
 
 ### Other bits
 You will definitely need:
-* 2x extra motors for AB
+* 2x extra motors for AB. Note that the older voron spec 0.9 degree steppers don't like high speeds, seem to be limited to under 350mm/s @ around 15k which will limit the potential of this machine. You may benefit from a 1.8 degree 2A motor or better.
 * Steppers to support the extra motors
 * 5mm shafts for the bearing stacks, and all appropriate shims
 * 8x Toothed Idlers(including what you may have already) - narrow flanged versions like the ones Mellow sell are recommended. 
@@ -80,6 +85,8 @@ In AWD there is another whole motor on the belt, taking up some of the load, and
 That and if the pulleys on both motors are not perfectly concentric then there is going to be like a wave of loading and unloading tension as it goes through the range of movement. If the motors are not sync'ed then this effect is even worse. 
 It can work, and has worked. But I gave up on it and went to microswitches as I was finding it a waste of time. Took less time to wire up some microswitches that I had spent troubleshooting it.
 
+### Concentric pulleys
+Make sure you have good pulleys. Having two pulleys with offset concentricity on the same belt WILL cause additional load on your motors and lead to performance issues. Any bent motor shafts will also cause you problems. Quality motor pulleys for XY are recommended.
 
 
 -- @TheMrFish
