@@ -2,34 +2,13 @@
 
 ![Alt text](images/v2Render1.png)
 
-Fourbie v2 is an AWD mod for Voron 2.4 designed to increase the performance of the v2 and unlock more of the potential of this platform. 
+Fourbie v2 is an AWD mod for Voron 2.4 designed to increase the performance of the v2 and unlock more of the potential of this platform. It utilises a top mounted rail, VZ printhead style printhead and a more balanced belt path. 
 While I will not make specific performance claims I can say that in testing, this goal has been met and this mod has led to significant accelleration, top speed and square corner velocity gains on the machines it has been tested on. 
 Fourbie v2 is in Beta. 
 No documentation is currently available for fourbie v2, so you will need to look right through the CAD for BOM and assembly. This will be remedied in time. See below for a list of changes from Fourbie v1 to v2. But note they are very different mods and should be considered as entirely distinct. They are v1 and v2 because that is the order they were developed. Note that other are taking efforts to mod fourbie v1 and v2 for Trident. I will include these in the repo as mods at the request of the developers. 
 Google Drive link below has links to the CAD - they are too big to fit on github here. Please reach out to me TheMrFish on Discord if you have any questions.
 
 https://drive.google.com/drive/u/0/folders/1L2iNjBxE2YqSRG2WW0IpDFqYx307Jbbb
-
-V1 and v2 are very different. Here are some renders of the belt paths:
-
-v1
-![Alt text](images/Fourbiev1BeltPath.png)
-v2
-![Alt text](images/Fourbiev2BeltPath.png)
-Main differences:
-   * Less idlers, simpler belt path. Less complexity means less failure points. 
-   * ~15mm of tensioner travel
-   * Tensioners at the front
-   * Belts run in front of the rear extrusion. All belts and idlers can now be inspected from within the chamber to ensure they are running true.
-   * Easy access to grub screws for syncing motors. 
-   * A bit less loss of Y travel
-   * Tow versions of AB joints, including one set that is much chonkier with an extra couple of mm of material in the AB drives. These resist twist far more than the standard thickness ones, or stock Voron AB.
-   * Lots of minor fixes to alignment and geometry
-   * No longer compatible with redoubt parts - v2 is an all in one system with front and rear AB and XY joints designed to be used together.
-   * Currently only configured to support CF Tube for the X member. Extrusion or others could be added, not currently supported. 
-
-It's still compatible with the VZ printhead, with the same belt spacing. Refer to the VZ-Prinhead-Printed repo for toolhead information.  
-Overall it's a more robust and performant mod than v1. We will continue to distribute the files for v1 as the seprate mods and vasrious configurations this enables still have value - but if you are looking to do the whole system together - while this is a bigger change from stock I would strongly recommend v2 over v1. Any questions should be directed to @TheMrFish on discord, I will happily answer your queries. 
 
 ## Options
 
@@ -40,7 +19,7 @@ These parts are thicker versions of the front and rear AB drives which we have f
 We don't have one yet. But here is some useful info:
 
 ### X Gantry:
-But at the time of writing you will require a CF tube for the X beam. I designed to be compatible with the Unique Prints CF tubes. These have an M5 hole 7mm from the end. Several users have used generic CF tube off Aliexpress and drilled to specification with success.
+But at the time of writing you will require a CF tube for the X beam. I designed to be compatible with the Unique Prints CF tubes. These have an M5 hole 7mm from the end. Several users have used generic CF tube off Aliexpress and drilled to specification with success. I am open to modifying this for an extrusion, CNC alu member or alternate CF tubes. Reach out to me on discord. No guarantees.
 
 ### Printhead
 See the VZ-Printhead-Printed for details of what you will need to support the VZ printhead. There are some mods to the printhead in the STL's - no further documentation regarding these mods is provided at this time
@@ -56,6 +35,8 @@ You will definitely need:
 * The standoffs/spacers for the vz toolhead - again check vz bom.
 * Some way of handling your wiring. We will provide mods for z chain mounts as some users are using these. I run an umbillical straight to the top, and a second umbillical to the top for the motors. Most of you will be running bottom mounted electronics, so mods for the chain will be provided asap. CANbus boards, if they can be made reliably would be a nice option for this toolhead. 
 * A hotend of appropriate length to support the VZ toolhead. Mosquito/NF crazy with volcmosq or longer. Again see the VZ-Printhead-Printed repo for more information.
+* you will need a front extrusion cut to length, see cad, add 50mm for a 300 and 100mm for a 350.
+* Stronly recommend you use an MGN9 for the top rail. It weighs almost half as much and the extra stability from MGN 12 isn't needed like it is in the stock voron gantry. This is one of the main reasons I made this mod in the first place, and you should see significant performance gains from this. MGN12 is untested. 
 
 
 ## Important notes
