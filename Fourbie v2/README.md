@@ -19,7 +19,7 @@ These parts are thicker versions of the front and rear AB drives which we have f
 We don't have a comprehensive BOM. I recommend you inspect the CAD to see what you need. But here is some useful info:
 
 ### X Gantry:
-But at the time of writing you will require a CF tube for the X beam. I designed to be compatible with the Unique Prints CF tubes. These have an M5 hole 7mm from the end. Several users have used generic CF tube off Aliexpress and drilled to specification with success. I am open to modifying this for an extrusion, CNC alu member or alternate CF tubes. Reach out to me on discord. No guarantees.
+At the time of writing you will require a CF tube for the X beam. I designed to be compatible with the Unique Prints CF tubes. These have an M5 hole 7mm from the end. Several users have used generic CF tube off Aliexpress and drilled to specification with success. I am open to modifying this for an extrusion, CNC alu member or alternate CF tubes. Reach out to me on discord. No guarantees.
 
 ### Printhead
 See the VZ-Printhead-Printed for details of what you will need to support the VZ printhead. There are some mods to the printhead in the STL's - no further documentation regarding these mods is provided at this time
