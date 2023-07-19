@@ -1,8 +1,9 @@
-# Fourbie
+# Fourbie v2
 
-## Important note
-All of the below information past the following section refers to Fourbie V1.
-Fourbie v2 is in active development - but is mostly done. We are just wrapping it up and getting ready for github release. I am providing a link to the google drive with the caveat that this is still in development and should be considered an alpha release. No documentation is currently available for fourbie v2, so you will need to look right through the CAD for BOM and assembly. This will be remedied in time. Information regarding v1 continues below this explainer about Fourbie v2 and the changes
+Fourbie v2 is in Beta. 
+No documentation is currently available for fourbie v2, so you will need to look right through the CAD for BOM and assembly. This will be remedied in time. See below for a list of changes from Fourbie v1 to v2. But note they are very different mods and should be considered as entirely distinct. They are v1 and v2 because that is the order they were developed. 
+Google Drive link below has links to the CAD - they are too big to fit on github here. 
+
 https://drive.google.com/drive/u/0/folders/1L2iNjBxE2YqSRG2WW0IpDFqYx307Jbbb
 
 V1 and v2 are very different. Here are some renders of the belt paths:
