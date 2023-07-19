@@ -8,7 +8,7 @@ They are labeled v1 and v2 as that is the order they are developed in. v1 is mor
 These are two separate mods, both distributed from this repository in different sub-folders.
 Links to the CAD can be found below. Documentation about the specific mods can be found in their specific folders README.MD
 
-https://drive.google.com/drive/u/0/folders/1L2iNjBxE2YqSRG2WW0IpDFqYx307Jbbb
+CAD can be found here:  https://drive.google.com/drive/u/0/folders/1L2iNjBxE2YqSRG2WW0IpDFqYx307Jbbb
 
 ## V2
 https://github.com/MakerBogans/Fourbie/tree/main/Fourbie%20v2
