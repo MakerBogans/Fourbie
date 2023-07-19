@@ -16,7 +16,7 @@ https://drive.google.com/drive/u/0/folders/1L2iNjBxE2YqSRG2WW0IpDFqYx307Jbbb
 These parts are thicker versions of the front and rear AB drives which we have found to be SIGNIFICANTLY stiffer. Back to back testing of performance has not been tested. I suspect they will perform better and may become the standard. Note that you may need to add washers/use longer bolts for your z belt mounting to fit them - I have not specifically looked at the length of this bolt at the time of writing. 
 
 ## BOM:
-We don't have one yet. But here is some useful info:
+We don't have a comprehensive BOM. I recommend you inspect the CAD to see what you need. But here is some useful info:
 
 ### X Gantry:
 But at the time of writing you will require a CF tube for the X beam. I designed to be compatible with the Unique Prints CF tubes. These have an M5 hole 7mm from the end. Several users have used generic CF tube off Aliexpress and drilled to specification with success. I am open to modifying this for an extrusion, CNC alu member or alternate CF tubes. Reach out to me on discord. No guarantees.
