@@ -1,6 +1,6 @@
 # Fourbie v2
 
-![Alt text](Fourbie v2/images/v2Render1.png)
+![Alt text](images/v2Render1.png)
 
 Fourbie v2 is in Beta. 
 No documentation is currently available for fourbie v2, so you will need to look right through the CAD for BOM and assembly. This will be remedied in time. See below for a list of changes from Fourbie v1 to v2. But note they are very different mods and should be considered as entirely distinct. They are v1 and v2 because that is the order they were developed. 
