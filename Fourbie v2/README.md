@@ -18,23 +18,14 @@ v2
 ![Alt text](images/Fourbiev2BeltPath.png)
 Main differences:
    * Less idlers, simpler belt path. Less complexity means less failure points. 
-
    * ~15mm of tensioner travel
-
    * Tensioners at the front
-
    * Belts run in front of the rear extrusion. All belts and idlers can now be inspected from within the chamber to ensure they are running true.
-
    * Easy access to grub screws for syncing motors. 
-
    * A bit less loss of Y travel
-
    * Tow versions of AB joints, including one set that is much chonkier with an extra couple of mm of material in the AB drives. These resist twist far more than the standard thickness ones, or stock Voron AB.
-
    * Lots of minor fixes to alignment and geometry
-
    * No longer compatible with redoubt parts - v2 is an all in one system with front and rear AB and XY joints designed to be used together.
-
    * Currently only configured to support CF Tube for the X member. Extrusion or others could be added, not currently supported. 
 
 It's still compatible with the VZ printhead, with the same belt spacing. Refer to the VZ-Prinhead-Printed repo for toolhead information.  
