@@ -1,9 +1,24 @@
 # Fourbie
 
 ## Important note
-All of the below information past the following section refers to Fourbie V1.
-Fourbie v2 is in active development - but is mostly done. We are just wrapping it up and getting ready for github release. I am providing a link to the google drive with the caveat that this is still in development and should be considered an alpha release. No documentation is currently available for fourbie v2, so you will need to look right through the CAD for BOM and assembly. This will be remedied in time. Information regarding v1 continues below this explainer about Fourbie v2 and the changes
+The following information is in regards to the differences between Fourbie v1 and Fourbie v2.
+They are both AWD mods for voron 2.4 that use top moutned rails and VZ toolheads. However they are quite different in implementation.
+They are labeled v1 and v2 as that is the order they are developed in. v1 is more flexible and compatible if you want to pick and choose which parts of the mod to use, see below. If starting from scratch I strongly recommend you go with v2. v1 is no longer in Active development, however they will continue to be distributed for those who may find them useful in some way.
+
+These are two separate mods, both distributed from this repository in different sub-folders.
+Links to the CAD can be found below. Documentation about the specific mods can be found in their specific folders README.MD
+
 https://drive.google.com/drive/u/0/folders/1L2iNjBxE2YqSRG2WW0IpDFqYx307Jbbb
+
+## V2
+https://github.com/MakerBogans/Fourbie/tree/main/Fourbie%20v2
+![Alt text](images/v2Render1.png)
+
+## V1
+https://github.com/MakerBogans/Fourbie/tree/main/Fourbie%20v1
+![Alt text](images/Render1.png)
+
+
 
 V1 and v2 are very different. Here are some renders of the belt paths:
 
@@ -34,84 +49,6 @@ Main differences:
 
 It's still compatible with the VZ printhead, with the same belt spacing. Refer to the VZ-Prinhead-Printed repo for toolhead information.  
 Overall it's a more robust and performant mod than v1. We will continue to distribute the files for v1 as the seprate mods and vasrious configurations this enables still have value - but if you are looking to do the whole system together - while this is a bigger change from stock I would strongly recommend v2 over v1. Any questions should be directed to @TheMrFish on discord, I will happily answer your queries. 
-
-# Fourbie v1
-
-![Alt text](images/Render1.png)
-Fourbie is a collection of mods aimed at increasing the performance of the Voron 2.4. 
-In short it's an AWD system with a VZBot style toolhead. The X rail mounts on top of the X member and the toolhead is balanced over the top. Belts terminate on the front on one end and the rear on the other. This leads to a more balanced gantry than the stock voron allowing for increased performance. A front extrusion is added to support the front AB drives. There is support for CF tubes and extrusions. It also supports the use of a single MGN9 or MGN12.
-
-The primary components of the MOD are 
-* Front AB drives for AWD Support
-* Rear AB drives with integrated Tensioners
-* XY Joints
-
-CAD can be found here: 
-
-   https://drive.google.com/file/d/1AhVO8JxvDxypqgWyNXzLK3HZzntU7isS/view?usp=sharing
-   https://drive.google.com/file/d/1FDfTh_o8sUtzyHR29BRvmarWRINtGYFZ/view?usp=drive_link
-   
-STL's are in this repository
-
-These are all designed to be used together, however they could be used in a number of other configurations
-Possible configurations include:
-
-    * AWD with all of the mods and VZ printhead style toolheads.
-    
-    * AWD with using the front and rear AB drives from this mod, Redoubt XY Joints and Voron style toolheads. 
-    
-    * 2WD using the XY Joints and rear AB from this mod, Redoubt front idlers and VZ Printhead style toolheads.
-    
-
-The standard configuration is all of the above mods together. This is what is tested. All other potential configurations are untested. 
-Note that this is an advanced mod. There is no build documentation. Bom will not be comprehensive. It is expected that you will inspect the CAD and do the work to figure out what you need to install it. 
-
-Due to the number of idlers, you need to build to spec and take your time to make sure everything is properly built and aligned, front to back. Failure to do this will lead to your fourbie eating all of your belts. Nom. Also before printing make sure that you have properly tuned your filament and that it is producing dimensionally accurate parts. This MOD has been designed with very tight tolerances and improper calibration will lead to problems. 
-
-## XY Joints
-![Alt text](images/XYJoint.png)
-Two versions of the XY joints are included in the mod, one for CF tubes and one for extrusions.
-From our testing a CF tube provides better performance.
-Either version supports MGN12 or MGN9. The more balanced gantry allows for the use of MGN9 as having the toolhead balanced over the top of the rail rather than hanging off the front means that a lighter duty rail can be used without degrading stability. In our testing the weight savings by going to MGN9 leads to better performance.
-The front idler positioning is the same as Redoubt meaning this is compatible with Redoubt front idlers with either the rear AB drives from this mod or the Redoubt motor mounts. 
-The XY joints are designed to be used with pins rather than bolts(Voron default) or shoulder screws(Redoubt default)
-
-## Front AB drives. 
-![Alt text](images/FrontAB.png)
-There are two versions of the Front AB drives. 
-
-    * With Extrusion
-    
-    * Without extrusion
-    
-
-Front AB drives without extrusion are untested and not recommended. The addition of a front extrusion stabilises the front AB drives. The addition of motors on the front of the gantry could lead to the fron AB drives twisting and could cause problems with your belts. Extrusion length is 210mm/260mm/310mm for v2.4 250/300/350.
-All idler and pulley stacks use pins rather than bolts. As per design all smooth idlers are designed to use bearings, and toothed idlers use toothed idlers. There is support in the CAD for Gates genuine and non-genuine idlers. 
-
-The return belts for the AB drives use redoubt belt spacing and therefor are compatible with redoubt XY joints. 
-
-## Rear AB drives
-![Alt text](images/RearAB.png)
-Rear AB drives use integrated tensioners using an M5 bolt. Design was originally based on the Redoubt idlers, but then heavily modified to allow for visibility of the pulleys so you can confirm that your belts are running true.
-Note that as with the XY joints and Front AB drives these are designed for use with pins rather than bolts or shoulder screws for the idler stacks. 
-Rear AB drives allow for about 6.5mm of tensioning travel. This is enough, though you will want to put a little bit of tension on your belts when installing them
-## Recommended configuration
-
-* MGN9 for X rail.
-* CF Tube for X rail
-* Front AB drives with extrusion
-
-An NF Crazy or Mosquito is recommended to minimise loss of Y. With an NF crazy there is no loss of X and about 25mm loss on Y. Given that most people generally  do not print in the outer 1cm of the bed on Voron this is very little real world loss of build volume. 
-We are looking at options for BerdAir to reduce loss of build volume down to the minimum. 
-
-## Tips
-It's easiest to run the belts without the tops on the front and rear AB drives. 
-
-## BOM
-
-.... we might put something here. 
-
-
 
 ## Credit/Attribution
 Credit goes to the Voron team for they great work creating the Voron 2.4 https://vorondesign.com/voron2.4
