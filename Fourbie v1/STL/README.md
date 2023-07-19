@@ -32,7 +32,7 @@ Note that this is an advanced mod. There is no build documentation. Bom will not
 Due to the number of idlers, you need to build to spec and take your time to make sure everything is properly built and aligned, front to back. Failure to do this will lead to your fourbie eating all of your belts. Nom. Also before printing make sure that you have properly tuned your filament and that it is producing dimensionally accurate parts. This MOD has been designed with very tight tolerances and improper calibration will lead to problems. 
 
 ## XY Joints
-![Alt text](images/XYJoint.png)
+![Alt text](../images/XYJoint.png)
 Two versions of the XY joints are included in the mod, one for CF tubes and one for extrusions.
 From our testing a CF tube provides better performance.
 Either version supports MGN12 or MGN9. The more balanced gantry allows for the use of MGN9 as having the toolhead balanced over the top of the rail rather than hanging off the front means that a lighter duty rail can be used without degrading stability. In our testing the weight savings by going to MGN9 leads to better performance.
