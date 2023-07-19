@@ -64,11 +64,13 @@ Make sure you have good pulleys. Having two pulleys with offset concentricity on
 -- @TheMrFish
 
 ## Credit/Attribution
+Some screenshots of some sketches of parts of potential belt paths that Jakoob874 on discord served as inspiration for Fourbie v2 and it would not exist without that. 
 Credit goes to the Voron team for they great work creating the Voron 2.4 https://vorondesign.com/voron2.4
 Annex Engineering that inspired some elements of the rear AB drives.  https://github.com/Annex-Engineering/Redoubt
 Aive from the Makerbogans discord who's work on an AWD drive system for voron 2.4 defined the belt path for the front AB drives. 
 The VZBot team for the VZ printhead - which made developing this mod much faster and also allows for the the use of many more toolhead configurations than we would have provided support for otherwise. https://github.com/VzBoT3D/Vz-Printhead-Printed
 Thanks to Vez for giving permission to include the printhead in the CAD. 
+
 
 
 
