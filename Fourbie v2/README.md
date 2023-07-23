@@ -29,7 +29,7 @@ You will definitely need:
 * 2x extra motors for AB. Note that the older voron spec 0.9 degree steppers don't like high speeds, seem to be limited to under 350mm/s @ around 15k which will limit the potential of this machine. You may benefit from a 1.8 degree 2A motor or better.
 * Steppers to support the extra motors
 * 5mm shafts for the bearing stacks, and all appropriate shims
-* 8x Toothed Idlers(including what you may have already) - narrow flanged versions like the ones Mellow sell are recommended. 
+* 8x Toothed Idlers(including what you may have already) - narrow flanged versions like the ones Mellow sell are recommended. dependingnon how wide, wide flanged onces may bind on the xy joints against the extrusion. in this case yoy are better off using bearing stacks and shims rather than toothed idlers. https://a.aliexpress.com/_mtE7JaI
 * Additional belt - the belt path is SLIGHTLY longer - you will need more belts. 
 * 2x 55, 60 or 65mm M5 bolts for the tensioners
 * The standoffs/spacers for the vz toolhead - again check vz bom.
