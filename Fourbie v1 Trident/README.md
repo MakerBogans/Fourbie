@@ -43,7 +43,10 @@ We are looking at options for BerdAir to reduce loss of build volume down to the
 
 ## BOM
 
-.... we might put something here. 
+For the front drive mounts you need:
+2x 2GT toothed idlers (3mm bore)
+4x 2GT smooth idlers (3mm bore)
+12x M3x5x0.5mm shims
 
 
 
