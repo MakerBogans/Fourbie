@@ -10,6 +10,8 @@ Links to the CAD can be found below. Documentation about the specific mods can b
 
 CAD can be found here:  https://drive.google.com/drive/u/0/folders/1L2iNjBxE2YqSRG2WW0IpDFqYx307Jbbb
 
+Trident Mods exist in the mods folders
+
 ## V2
 https://github.com/MakerBogans/Fourbie/tree/main/Fourbie%20v2
 ![Alt text](images/v2Render1.png)
