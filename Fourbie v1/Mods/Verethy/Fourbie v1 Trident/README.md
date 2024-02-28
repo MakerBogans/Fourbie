@@ -1,18 +1,16 @@
 # Fourbie v1
 
-![Alt text](images/Render1.png)
 Fourbie is a collection of mods aimed at increasing the performance of the Voron 2.4/Trident. 
 In short it's an AWD system with a VZBot style toolhead. The X rail mounts on top of the X member and the toolhead is balanced over the top. Belts terminate on the front on one end and the rear on the other. This leads to a more balanced gantry than the stock voron allowing for increased performance. A front extrusion is added to support the front AB drives. There is support for CF tubes and extrusions. It also supports the use of a single MGN9 or MGN12.
+
+![alt text](Fourbie/Fourbie v1/Mods/Verethy/Fourbie v1 Trident/images/Render1.png)
+![alt text](Fourbie/Fourbie v1/Mods/Verethy/Fourbie v1 Trident/images/Render2.png)
 
 The primary components of the MOD are 
 * Front AB drives for AWD Support
 * Rear AB drives with integrated Tensioners
 * XY Joints
 
-CAD can be found here: 
-
-   https://drive.google.com/file/d/1Gi_YSckQXjf6jtSXuqpcVsxE0xQNEyGL/view?usp=sharing
-   
 STL's are in this repository
 
 These are all designed to be used together, however they could be used in a number of other configurations
